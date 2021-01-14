@@ -28,7 +28,7 @@ jobs:
 
       - name: Clone Lean's openwrt
         run: |
-          git clone https://github.com/coolsnowwolf/lede
+          git clone https://github.com/aiden-5154/lede
 
       - name: Install feeds & Make config
         env:
